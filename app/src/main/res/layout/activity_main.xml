@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/txtPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="About The Song:"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="35mm"/>
+
+    <TextView
+        android:id="@+id/txtSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Title:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g. Love Yours"
+        android:inputType="text"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/txtArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist Name:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To MAKE YOUR PLAYLIST!!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="24dp"
+        android:paddingTop="50mm"
+        />
+
+    <EditText
+        android:id="@+id/edtArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g. J.Cole"
+        android:inputType="text"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/txtRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1-5"
+        android:inputType="number"
+        android:paddingBottom="16dp" />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF5722"
+        android:text="Add to Playlist"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:id="@+id/txtComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g. This is a great song"
+        android:inputType="text"
+        android:paddingBottom="24dp" />
+
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF5722"
+        android:text="Done"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF5722"
+        android:text="Exit" />
+
+</LinearLayout>
